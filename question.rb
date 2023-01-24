@@ -13,14 +13,7 @@ class Question
 
   def check_answer
     user_input = gets.chomp
-    if user_input.to_i == answer
-      return true
-    else
-      return false
-    end
-
-    # return true if user_input == answer ?
-    # return false
+    return user_input.to_i == answer
   end
 
 end

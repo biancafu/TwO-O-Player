@@ -15,8 +15,7 @@ class Player
 
   def wrong
     puts "#{name}:  Seriously? No!"
-    # new_lives = lives - 1
-    # lives = new_lives
+    self.lives = self.lives - 1
   end
 
   def correct

@@ -22,7 +22,6 @@ class Game
       if !result
         sleep(1)
         current_player.wrong
-        current_player.lives = current_player.lives - 1
       else
         sleep(1)
         current_player.correct
