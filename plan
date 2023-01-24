@@ -1,6 +1,6 @@
 Task 1: Extract Nouns for Classes
 player
-questions
+question
 game
 
 Task 2: Write their roles
@@ -8,7 +8,7 @@ player: state - lives
         initialize() @lives = 3
         behavior - getter, response to correct or wrong answer, is_alive
 
-questions: state add1, add2, answer, input
+question: state add1, add2, answer, input
             initialize(): generate random numbers for add1 add2, 
             make answer = add1 + add2
           behavior - getters, check_answer
